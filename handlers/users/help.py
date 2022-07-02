@@ -13,7 +13,6 @@ async def bot_help(message: types.Message):
             "/2001B - sinfdoshlar",
             "/Rasmlar - rasimlar toplami",
             "/admin_uchun - guruh admini uchun ruhsatnomalar",
-            "/admin - Adminga murojat",
             "/malumot - bot haqida")
 
     await message.answer("\n".join(text))
